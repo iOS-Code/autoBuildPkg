@@ -1,0 +1,105 @@
+2019-04-11 08:55:10 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fe816f8ee50; archive(resolved)='<IDEArchive: 0x7fe816f5c010>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fe816f8ee50; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fe816f8d440; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fe816f8e920; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fe81721c710; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fe81713c750; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fe81708a170; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fe8172149d0; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fe817152c00; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fe816e60a70; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='<IDEProvisioningBasicTeam: 0x7fe817137210; teamID='ZT38DY35DB', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fe816e437a0; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fe8145d6cf0>', team='(null)'>
+	<IDEDistributionContext: 0x7fe816f70290; archive = '<IDEArchive: 0x7fe816f5c010>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fe816f8ee50>
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2019-04-11 08:55:10 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/yuechen/Desktop/autoBuildPkg/autoBuild/autoBuildPkg.xcarchive/Products/Applications/autoBuildPkg.app' '/var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/Root/Payload/autoBuildPkg.app'
+2019-04-11 08:55:10 +0000  >>> Copying /Users/yuechen/Desktop/autoBuildPkg/autoBuild/autoBuildPkg.xcarchive/Products/Applications/autoBuildPkg.app 
+2019-04-11 08:55:10 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-04-11 08:55:10 +0000  3895 bytes for ./_CodeSignature/CodeResources
+2019-04-11 08:55:10 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-04-11 08:55:10 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1136 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2019-04-11 08:55:10 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-04-11 08:55:10 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-04-11 08:55:10 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-04-11 08:55:10 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-04-11 08:55:10 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-04-11 08:55:10 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-04-11 08:55:10 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-04-11 08:55:10 +0000  copying file ./autoBuildPkg ... 
+2019-04-11 08:55:10 +0000  119680 bytes for ./autoBuildPkg
+2019-04-11 08:55:10 +0000  copying file ./embedded.mobileprovision ... 
+2019-04-11 08:55:10 +0000  34607 bytes for ./embedded.mobileprovision
+2019-04-11 08:55:10 +0000  copying file ./Info.plist ... 
+2019-04-11 08:55:10 +0000  1116 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2019-04-11 08:55:10 +0000  8 bytes for ./PkgInfo
+2019-04-11 08:55:10 +0000 [MT] /usr/bin/ditto exited with 0
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2019-04-11 08:55:10 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2019-04-11 08:55:10 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-04-11 08:55:10 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2019-04-11 08:55:10 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2019-04-11 08:55:10 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2019-04-11 08:55:10 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/Root/Payload/autoBuildPkg.app/autoBuildPkg' '-verify_arch' 'arm64e'
+2019-04-11 08:55:10 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-04-11 08:55:10 +0000 [MT] Skipping architecture thinning for item "autoBuildPkg" because arch "arm64e" wasn't found
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionODRStep
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2019-04-11 08:55:10 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/Root/Payload/autoBuildPkg.app'
+2019-04-11 08:55:10 +0000 [MT] /usr/bin/xattr exited with 0
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2019-04-11 08:55:10 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fe817138c60 'com.enhance.autoBuildPkg' '<DVTFilePath:0x7fe816f229f0:'/Users/yuechen/Desktop/autoBuildPkg/autoBuild/autoBuildPkg.xcarchive/Products/Applications/autoBuildPkg.app'>'>: {
+    "application-identifier" = "ZT38DY35DB.com.enhance.autoBuildPkg";
+    "com.apple.developer.team-identifier" = ZT38DY35DB;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "ZT38DY35DB.com.enhance.autoBuildPkg"
+    );
+}
+2019-04-11 08:55:10 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fe817138c60 'com.enhance.autoBuildPkg' '<DVTFilePath:0x7fe816f229f0:'/Users/yuechen/Desktop/autoBuildPkg/autoBuild/autoBuildPkg.xcarchive/Products/Applications/autoBuildPkg.app'>'> to: /var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/entitlements~~~E47jmM
+2019-04-11 08:55:10 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '92FFA65750FBE7378596220B65D4F00528ACE901' '--entitlements' '/var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/entitlements~~~E47jmM' '--preserve-metadata=identifier,flags,runtime' '/var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/Root/Payload/autoBuildPkg.app'
+2019-04-11 08:55:10 +0000  /var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/Root/Payload/autoBuildPkg.app: signed app bundle with Mach-O thin (arm64) [com.enhance.autoBuildPkg]
+2019-04-11 08:55:10 +0000 [MT] /usr/bin/codesign exited with 0
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2019-04-11 08:55:10 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2019-04-11 08:55:10 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/Root' '/var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/Packages/autoBuildPkg.ipa'
+2019-04-11 08:55:10 +0000  >>> Copying /var/folders/hx/4_wmyh916ylgddbd1hbprk5w0000gn/T/XcodeDistPipeline.~~~5KxiO0/Root 
+2019-04-11 08:55:10 +0000  copying file ./Payload/autoBuildPkg.app/_CodeSignature/CodeResources ... 
+2019-04-11 08:55:10 +0000  3895 bytes for ./Payload/autoBuildPkg.app/_CodeSignature/CodeResources
+2019-04-11 08:55:10 +0000  copying file ./Payload/autoBuildPkg.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-04-11 08:55:10 +0000  916 bytes for ./Payload/autoBuildPkg.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/autoBuildPkg.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-04-11 08:55:10 +0000  1136 bytes for ./Payload/autoBuildPkg.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/autoBuildPkg.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/autoBuildPkg.app/Base.lproj/Main.storyboardc/Info.plist
+2019-04-11 08:55:10 +0000  copying file ./Payload/autoBuildPkg.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-04-11 08:55:10 +0000  1136 bytes for ./Payload/autoBuildPkg.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/autoBuildPkg.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-04-11 08:55:10 +0000  832 bytes for ./Payload/autoBuildPkg.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/autoBuildPkg.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-04-11 08:55:10 +0000  258 bytes for ./Payload/autoBuildPkg.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/autoBuildPkg.app/autoBuildPkg ... 
+2019-04-11 08:55:10 +0000  70144 bytes for ./Payload/autoBuildPkg.app/autoBuildPkg
+copying file ./Payload/autoBuildPkg.app/embedded.mobileprovision ... 
+2019-04-11 08:55:10 +0000  34607 bytes for ./Payload/autoBuildPkg.app/embedded.mobileprovision
+copying file ./Payload/autoBuildPkg.app/Info.plist ... 
+2019-04-11 08:55:10 +0000  1116 bytes for ./Payload/autoBuildPkg.app/Info.plist
+copying file ./Payload/autoBuildPkg.app/PkgInfo ... 
+2019-04-11 08:55:10 +0000  8 bytes for ./Payload/autoBuildPkg.app/PkgInfo
+2019-04-11 08:55:10 +0000 [MT] /usr/bin/ditto exited with 0
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2019-04-11 08:55:10 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-04-11 08:55:10 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
